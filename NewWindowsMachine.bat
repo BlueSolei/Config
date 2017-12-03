@@ -15,9 +15,11 @@ if %errorlevel% NEQ 0 (
 	echo 'Chocolatey' package manager was found.
 )
 
+rem choco packages:
+rem sharpkeys - mapping keys. used to map CapsLock to Esc for vim
 echo.
 echo Install choco packages:
-choco install git python3 pip  -y
+choco install git python3 pip sharpkeys -y
 choco upgrade all -y
 
 rem c++ package manager. 
