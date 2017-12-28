@@ -52,6 +52,15 @@
       </object>
     </child>
     <child>
+      <object class="ttk.Combobox" id="comboCodeReviewer">
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
       <object class="ttk.Label" id="labelTests">
         <property name="text" translatable="yes">Integration &amp; Unit Test:</property>
         <layout>
@@ -70,15 +79,6 @@
           <property name="column">0</property>
           <property name="propagate">True</property>
           <property name="row">5</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Combobox" id="comboCodeReviewer">
-        <layout>
-          <property name="column">0</property>
-          <property name="propagate">True</property>
-          <property name="row">3</property>
         </layout>
       </object>
     </child>
