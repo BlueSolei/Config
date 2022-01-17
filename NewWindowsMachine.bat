@@ -23,14 +23,8 @@ rem choco packages:
 rem sharpkeys - mapping keys. used to map CapsLock to Esc for vim
 echo.
 echo Install choco packages:
-choco install git python3 GoogleChrome jetbrainstoolbox vscode mobaxterm tortoisegit microsoft-windows-terminal
+choco install git python3 GoogleChrome vim sharpkeys jetbrainstoolbox vscode mobaxterm tortoisegit microsoft-windows-terminal adobereader 
 choco upgrade all 
-
-rem Phase 2
-rem ** Conan
-rem c++ package manager. 
-rem url: https://conanio.readthedocs.io/en/latest/introduction.html
-rem pip install conan
 
 rem ** Gui for bash
 rem how to add gui to bash at windows 10
