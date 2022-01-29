@@ -1,0 +1,10 @@
+
+
+. https://docs.microsoft.com/en-us/windows/wsl/install
+1. Open powershell in admin mode
+2. Run: wsl --install
+3. Let it run its course, let it reboot, or reboot yourself 
+4. Open: ubuntu
+5. sudo apt update && sudo apt upgrade
+if it fails to connect, it is might be our Anti Virus - ESET
+6. Unblock connection in ESET: /Setup/Trouble Shooting wizard just unblock them all
